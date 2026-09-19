@@ -1,0 +1,1 @@
+Test accuracy of rnn is 56.22083333333333

@@ -1,0 +1,100 @@
+Epoch Value:  0
+Epoch:  0 | Loss: 1.3451 | Train Accuracy: 43.49
+Epoch Value:  1
+Epoch:  1 | Loss: 1.2330 | Train Accuracy: 47.19
+Epoch Value:  2
+Epoch:  2 | Loss: 1.2075 | Train Accuracy: 47.79
+Epoch Value:  3
+Epoch:  3 | Loss: 1.1601 | Train Accuracy: 49.66
+Epoch Value:  4
+Epoch:  4 | Loss: 1.1062 | Train Accuracy: 51.98
+Epoch Value:  5
+Epoch:  5 | Loss: 1.0920 | Train Accuracy: 53.08
+Epoch Value:  6
+Epoch:  6 | Loss: 1.0824 | Train Accuracy: 53.71
+Epoch Value:  7
+Epoch:  7 | Loss: 1.0632 | Train Accuracy: 54.67
+Epoch Value:  8
+Epoch:  8 | Loss: 1.0528 | Train Accuracy: 54.89
+Epoch Value:  9
+Epoch:  9 | Loss: 1.0475 | Train Accuracy: 55.09
+Epoch Value:  10
+Epoch:  10 | Loss: 1.0429 | Train Accuracy: 55.30
+Epoch Value:  11
+Epoch:  11 | Loss: 1.0379 | Train Accuracy: 55.47
+Epoch Value:  12
+Epoch:  12 | Loss: 1.0352 | Train Accuracy: 55.61
+Epoch Value:  13
+Epoch:  13 | Loss: 1.0325 | Train Accuracy: 55.73
+Epoch Value:  14
+Epoch:  14 | Loss: 1.0291 | Train Accuracy: 56.02
+Epoch Value:  15
+Epoch:  15 | Loss: 1.0269 | Train Accuracy: 56.24
+Epoch Value:  16
+Epoch:  16 | Loss: 1.0255 | Train Accuracy: 56.32
+Epoch Value:  17
+Epoch:  17 | Loss: 1.0247 | Train Accuracy: 56.35
+Epoch Value:  18
+Epoch:  18 | Loss: 1.0240 | Train Accuracy: 56.38
+Epoch Value:  19
+Epoch:  19 | Loss: 1.0230 | Train Accuracy: 56.44
+Epoch Value:  20
+Epoch:  20 | Loss: 1.0230 | Train Accuracy: 56.37
+Epoch Value:  21
+Epoch:  21 | Loss: 1.0218 | Train Accuracy: 56.45
+Epoch Value:  22
+Epoch:  22 | Loss: 1.0216 | Train Accuracy: 56.50
+Epoch Value:  23
+Epoch:  23 | Loss: 1.0214 | Train Accuracy: 56.50
+Epoch Value:  24
+Epoch:  24 | Loss: 1.0210 | Train Accuracy: 56.55
+Epoch Value:  25
+Epoch:  25 | Loss: 1.0203 | Train Accuracy: 56.59
+Epoch Value:  26
+Epoch:  26 | Loss: 1.0197 | Train Accuracy: 56.60
+Epoch Value:  27
+Epoch:  27 | Loss: 1.0200 | Train Accuracy: 56.64
+Epoch Value:  28
+Epoch:  28 | Loss: 1.0190 | Train Accuracy: 56.72
+Epoch Value:  29
+Epoch:  29 | Loss: 1.0183 | Train Accuracy: 56.52
+Epoch Value:  30
+Epoch:  30 | Loss: 1.0138 | Train Accuracy: 56.52
+Epoch Value:  31
+Epoch:  31 | Loss: 1.0116 | Train Accuracy: 56.66
+Epoch Value:  32
+Epoch:  32 | Loss: 1.0111 | Train Accuracy: 56.63
+Epoch Value:  33
+Epoch:  33 | Loss: 1.0093 | Train Accuracy: 56.81
+Epoch Value:  34
+Epoch:  34 | Loss: 1.0087 | Train Accuracy: 56.79
+Epoch Value:  35
+Epoch:  35 | Loss: 1.0074 | Train Accuracy: 56.88
+Epoch Value:  36
+Epoch:  36 | Loss: 1.0070 | Train Accuracy: 56.83
+Epoch Value:  37
+Epoch:  37 | Loss: 1.0068 | Train Accuracy: 56.88
+Epoch Value:  38
+Epoch:  38 | Loss: 1.0059 | Train Accuracy: 56.89
+Epoch Value:  39
+Epoch:  39 | Loss: 1.0053 | Train Accuracy: 56.95
+Epoch Value:  40
+Epoch:  40 | Loss: 1.0046 | Train Accuracy: 56.91
+Epoch Value:  41
+Epoch:  41 | Loss: 1.0047 | Train Accuracy: 56.92
+Epoch Value:  42
+Epoch:  42 | Loss: 1.0037 | Train Accuracy: 57.05
+Epoch Value:  43
+Epoch:  43 | Loss: 1.0038 | Train Accuracy: 56.97
+Epoch Value:  44
+Epoch:  44 | Loss: 1.0036 | Train Accuracy: 56.99
+Epoch Value:  45
+Epoch:  45 | Loss: 1.0031 | Train Accuracy: 56.93
+Epoch Value:  46
+Epoch:  46 | Loss: 1.0032 | Train Accuracy: 56.97
+Epoch Value:  47
+Epoch:  47 | Loss: 1.0024 | Train Accuracy: 56.98
+Epoch Value:  48
+Epoch:  48 | Loss: 1.0024 | Train Accuracy: 56.98
+Epoch Value:  49
+Epoch:  49 | Loss: 1.0023 | Train Accuracy: 57.01
