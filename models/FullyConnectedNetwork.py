@@ -69,7 +69,7 @@ class FullyConnectedNetwork():
             correct += (predicted == targ).sum().item()
 
             if ((batch_idx % log_interval) == 0):
-              print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(epoch, batch_idx * len(data), len(train_loader.dataset),100. * batch_idx / len(train_loader), loss.data))
+              print('Train Epoch: {} [{}/{} ({:.0f}%)]\tLoss: {:.6f}'.format(epoch, batch_idx * len(data), len(train_loader.dataset),100. * batch_idx / len(train_loader), loss.item()))
             loss.backward()
             optimizer.step()
           print('Test Accuracy: '+str(correct/total))
@@ -80,27 +80,26 @@ class FullyConnectedNetwork():
         return trainAccuracy,testAccuracy
     
     def predict(self,test_loader):
-        
         test_loss = 0
         correct = 0
         total = 0
         net=self.net
         yPred = []
         yTrue = []
+        criterion = nn.NLLLoss(reduction='sum')
+        net.eval()
+        with torch.no_grad():
+            for batch_idx, sub_data in enumerate(test_loader):
+              data = sub_data[:,0:4].float()
+              targ = sub_data[:,4].long()
+              net_out = net(data.float())
+              test_loss += criterion(net_out, targ).item()
+              _, predicted = torch.max(net_out.data, 1)
+              total += targ.size(0)
+              correct += (predicted == targ).sum().item()
+              yPred.extend(predicted.cpu().numpy().tolist())
+              yTrue.extend(targ.cpu().numpy().tolist())
         
-        for batch_idx, sub_data in enumerate(test_loader):
-          data = sub_data[:,0:4].float()
-          targ = sub_data[:,4].float()
-          #data = data.view(-1, 3*32*32)
-          net_out = net(data.float())
-          # sum up batch loss
-          _, predicted = torch.max(net_out.data, 1)
-          total += targ.size(0)
-          correct += (predicted == targ).sum().item()
-          yPred.append(predicted[0].item())
-          yTrue.append(targ[0].item())
-    
-    
         test_loss /= len(test_loader.dataset)
         print('\nTest set: Average loss: {:.4f},\033[1m \033[4m Accuracy:\033[0m {}/{} ({:.0f}%)\n'.format(test_loss, correct, total,100. * correct / total))
         return yTrue,yPred,(correct/total)
